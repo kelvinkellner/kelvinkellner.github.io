@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.1554d3bf.chunk.css",
-    "main.js": "/static/js/main.63a89e6a.chunk.js",
-    "main.js.map": "/static/js/main.63a89e6a.chunk.js.map",
+    "main.js": "/static/js/main.e8236685.chunk.js",
+    "main.js.map": "/static/js/main.e8236685.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2bebe183.js",
     "runtime-main.js.map": "/static/js/runtime-main.2bebe183.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.48219351.chunk.js": "/static/js/2.48219351.chunk.js",
-    "static/js/2.48219351.chunk.js.map": "/static/js/2.48219351.chunk.js.map",
+    "static/js/2.15e9e1fc.chunk.js": "/static/js/2.15e9e1fc.chunk.js",
+    "static/js/2.15e9e1fc.chunk.js.map": "/static/js/2.15e9e1fc.chunk.js.map",
     "static/js/3.e1c9085d.chunk.js": "/static/js/3.e1c9085d.chunk.js",
     "static/js/3.e1c9085d.chunk.js.map": "/static/js/3.e1c9085d.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.1554d3bf.chunk.css.map": "/static/css/main.1554d3bf.chunk.css.map",
-    "static/js/2.48219351.chunk.js.LICENSE.txt": "/static/js/2.48219351.chunk.js.LICENSE.txt",
+    "static/js/2.15e9e1fc.chunk.js.LICENSE.txt": "/static/js/2.15e9e1fc.chunk.js.LICENSE.txt",
     "static/media/arora-logo.17797180.png": "/static/media/arora-logo.17797180.png",
     "static/media/daves-auto-service-logo.32606651.png": "/static/media/daves-auto-service-logo.32606651.png",
     "static/media/k-godless-logo.4eac6d05.png": "/static/media/k-godless-logo.4eac6d05.png",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.2bebe183.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.48219351.chunk.js",
+    "static/js/2.15e9e1fc.chunk.js",
     "static/css/main.1554d3bf.chunk.css",
-    "static/js/main.63a89e6a.chunk.js"
+    "static/js/main.e8236685.chunk.js"
   ]
 }
