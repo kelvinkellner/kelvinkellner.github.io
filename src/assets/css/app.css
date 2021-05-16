@@ -1,0 +1,339 @@
+:root {
+  --main-color: #02b67d;
+  --main-color-dark: #017953;
+  --main-color-light: #02f2a6;
+  --off-color: #39413e;
+  --off-color-dark: #090b0a;
+  --off-color-light: #55625d;
+  --alt-color: #ffffff;
+  --alt-color-dark: #c6bec1;
+  --alt-color-light: #2b312f;
+}
+html {
+  scroll-behavior: smooth;
+}
+span {
+  color: var(--main-color);
+}
+body {
+  margin: 0;
+  font-family: 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--off-color-dark);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  color: var(--main-color);
+  text-decoration: underline;
+}
+a:hover {
+  color: var(--main-color-dark);
+}
+
+.nav {
+  list-style-type: none;
+  padding: 0;
+  float: right;
+}
+
+.nav-item {
+  display: inline;
+  height: 100%;
+  padding-left: 1rem;
+}
+.nav-item a {
+  color: var(--off-color);
+  text-decoration: none;
+}
+.nav-item a:hover {
+  color: var(--off-color-dark);
+  text-decoration: underline;
+}
+.nav-item .active {
+  color: var(--main-color);
+}
+.nav-item .active:hover {
+  color: var(--main-color-dark);
+}
+
+.nav-header {
+  font-size: 1.1rem;
+  justify-content: right;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 1.4rem;
+}
+
+.main {
+  min-height: calc(100vh - 19em);
+}
+
+.heading {
+  margin-bottom: 2rem;
+  font-size: 1.9rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+#title {
+  margin-top: 0.1rem;
+  font-weight: 600;
+}
+#title a {
+  text-decoration: none;
+  color: var(--off-color);
+}
+#title a:hover {
+  color: var(--main-color);
+}
+
+#header {
+  padding-top: 3.6em;
+  padding-bottom: 2.4em;
+}
+
+#footer {
+  margin-bottom: 1.2rem;
+}
+#footer p {
+  font-size: 0.9rem;
+  color: var(--off-color);
+  margin-bottom: 1.2rem;
+  margin-top: 1.2rem;
+}
+#footer a {
+  font-size: 0.9rem;
+}
+
+.btn-section-selector {
+  background-color: none;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 1em;
+  height: 3.6rem;
+  transform: skew(-10deg);
+  -webkit-transform: skew(-10deg);
+  -moz-transform: skew(-10deg);
+  -o-transform: skew(-10deg);
+  border: 1px solid var(--main-color);
+  border-radius: 0.24rem;
+}
+.btn-section-selector :hover {
+  background-color: var(--main-color);
+  height: 3.6rem;
+  border: 0 solid var(--main-color);
+  border-radius: 0.24rem;
+  transition: 0.12s;
+}
+.btn-section-selector h3 {
+  margin: 0;
+  padding-top: 0.42em;
+  height: 3.6rem;
+}
+.btn-section-selector a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+.btn-section-selector a:hover {
+  color: var(--off-color);
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+}
+
+.tag {
+  width: max-content;
+  color: var(--off-color-light);
+}
+
+.project-deck {
+  padding: 0;
+}
+.project {
+  padding: 1.4em;
+  margin: 1em 0 1em 0;
+  background-color: var(--alt-color);
+}
+.project ul {
+  margin-top: 0.8em;
+  margin-bottom: 0.4em;
+  font-size: 0.94em;
+}
+.project-link {
+  text-decoration: none;
+}
+.project-link:hover {
+  text-decoration: none;
+}
+.btn-primary {
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: var(--main-color-dark);
+  border-color: var(--main-color-dark);
+}
+.btn-link {
+  color: var(--main-color);
+}
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
+  color: var(--main-color-dark);
+}
+
+/* Add some padding inside the card container */
+.cards {
+  display: grid;
+  grid-gap: 4rem 4rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: (1, auto);
+  margin: 3em 0;
+  width: 100%;
+}
+
+.card-deck {
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 6em;
+}
+
+/*
+.card {
+  transition: 0.3s;
+  border-radius: 1.5em;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  color: var(--main-color);
+}
+.card a {
+  color: var(--off-color-dark);
+  text-decoration: none;
+  transition: 0.3s;
+}
+.card a:hover {
+  color: var(--main-color);
+}
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.card-text {
+  font-size: 1.1rem;
+}
+
+path {
+  fill: var(--off-color);
+}
+
+.smiley-easter-egg {
+  background-color: white;
+  border-radius: 100%;
+  position: relative;
+  animation: showsmiley 5s;
+  transition-timing-function: ease-in-out;
+}
+
+@keyframes showsmiley {
+  0% {
+    top: 5em;
+    left: 1.33em;
+    opacity: 0;
+    transform: rotate(0);
+    visibility: visible;
+  }
+  20% {
+    top: -1.5em;
+    left: 1.33em;
+    opacity: 0.9;
+    transform: rotate(0);
+  }
+  40% {
+    top: -1.5em;
+    left: 1.33em;
+    opacity: 1;
+    transform: rotate(0);
+  }
+  50% {
+    top: -1.5em;
+    left: 1.33em;
+    opacity: 1;
+    transform: rotate(40deg);
+  }
+  60% {
+    top: -1.5em;
+    left: 1.33em;
+    opacity: 1;
+    transform: rotate(50deg);
+  }
+  70% {
+    top: -1.5em;
+    left: 1.33em;
+    opacity: 1;
+    transform: rotate(-70deg);
+  }
+  80% {
+    top: -1.5em;
+    left: 1.33em;
+    opacity: 1;
+    transform: rotate(-80deg);
+  }
+  100% {
+    top: -1.5em;
+    left: 1.33em;
+    opacity: 0;
+    transform: rotate(280deg);
+    visibility: hidden;
+  }
+}
+
+/* xl */
+/* ... default ... */
+
+/* lg */
+@media screen and (max-width: 1200px) {
+}
+
+/* md */
+@media screen and (max-width: 991px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* sm */
+@media screen and (max-width: 767px) {
+}
+
+/* xs */
+@media screen and (max-width: 575px) {
+  :root {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
