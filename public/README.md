@@ -2,6 +2,6 @@
 
 Kelvin Kellner. My portfolio website built with React &lt;3
 
-Main branch is deployment, Development branch is source code.
+Main branch is for deployment, Development branch contains source code.
 
-Visit this site: [https://kelvinkellner.github.io/]
+Visit this site: https://kelvinkellner.github.io/
