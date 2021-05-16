@@ -3,7 +3,7 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './assets/css/app.css';
 
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Switch, Redirect } from 'react-router-dom';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -25,6 +25,10 @@ function App() {
         <Route path="/ux" component={UX} />
         <Route path="/dev" component={Dev} />
         <Route path="/graphic-design" component={GraphicDesign} />
+
+        <Route path="*">
+          <Redirect to="/" />
+        </Route>
       </Switch>
       <Footer />
     </Router>
