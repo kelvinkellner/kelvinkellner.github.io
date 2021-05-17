@@ -94,6 +94,12 @@ h6 {
 #title {
   margin-top: 0.1rem;
   font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: none;
+  max-width: 172px;
+  animation: title-animation 1.6s;
+  transition-timing-function: ease-in-out;
 }
 #title a {
   text-decoration: none;
@@ -103,13 +109,11 @@ h6 {
   color: var(--main-color);
 }
 
-.letter-by-letter {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: none;
-  max-width: 172px;
-  animation: title-animation 2s;
-  transition-timing-function: ease-in-out;
+.hover-space {
+  transition: letter-spacing 0.4s ease;
+}
+.hover-space:hover {
+  letter-spacing: 0.32px;
 }
 
 @keyframes title-animation {

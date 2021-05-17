@@ -12,15 +12,15 @@ class Header extends Component {
             <Container id="header">
                 <Row>
                     <Col style={{padding: 0, maxWidth: "172px"}}>
-                        <h4 id="title" className="letter-by-letter">
+                        <h4 id="title" className="hover-space">
                             <Link to="/">Kelvin<span>_</span>Kellner<span>.</span></Link>
                         </h4>
                     </Col>
                     <Col style={{padding: 0}}>
                         <ul className="nav nav-header" style={{marginTop: "0.2em"}}>
-                            <li className="nav-item"><NavLink to="/ux" activeClassName="active">UX Design.</NavLink></li>
-                            <li className="nav-item"><NavLink to="/dev" activeClassName="active">Development.</NavLink></li>
-                            <li className="nav-item"><NavLink to="/graphic-design" activeClassName="active">Graphic Design.</NavLink></li>
+                            <li className="nav-item"><NavLink to="/ux" activeClassName="active" className="hover-space">UX Design.</NavLink></li>
+                            <li className="nav-item"><NavLink to="/dev" activeClassName="active" className="hover-space">Development.</NavLink></li>
+                            <li className="nav-item"><NavLink to="/graphic-design" activeClassName="active" className="hover-space">Graphic Design.</NavLink></li>
                             {/*
                                 <li className="nav-item"><NavLink to="/" activeClassName="active">Portfolio.</NavLink></li>
                                 <li className="nav-item"><NavLink to="/hobbies" activeClassName="active">Hobbies.</NavLink></li>
