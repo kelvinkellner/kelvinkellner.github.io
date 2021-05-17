@@ -200,6 +200,16 @@ h6 {
 .btn-link:active {
   color: var(--main-color-dark);
 }
+.btn-secret-link {
+  width: min-content;
+  height: max-content;
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-right: 0.32rem;
+  margin-top: -0.24rem;
+}
 
 /* Add some padding inside the card container */
 .cards {
@@ -215,6 +225,67 @@ h6 {
   width: 100%;
   margin-top: 2em;
   margin-bottom: 6em;
+}
+
+.smiley-easter-egg {
+  background-color: white;
+  border-radius: 100%;
+  position: relative;
+  animation: showsmiley 5s;
+  transition-timing-function: ease-in-out;
+}
+
+@keyframes showsmiley {
+  0% {
+    top: 5em;
+    left: 1.33em;
+    opacity: 0;
+    transform: rotate(0);
+    visibility: visible;
+  }
+  20% {
+    top: -2em;
+    left: 1.33em;
+    opacity: 1;
+    transform: rotate(0);
+  }
+  40% {
+    top: -2em;
+    left: 1.33em;
+    opacity: 1;
+    transform: rotate(0);
+  }
+  50% {
+    top: -2em;
+    left: 1.33em;
+    opacity: 1;
+    transform: rotate(40deg);
+  }
+  60% {
+    top: -2em;
+    left: 1.33em;
+    opacity: 1;
+    transform: rotate(50deg);
+  }
+  70% {
+    top: -2em;
+    left: 1.33em;
+    opacity: 1;
+    transform: rotate(-70deg);
+  }
+  80% {
+    top: -2em;
+    left: 1.33em;
+    opacity: 1;
+    transform: rotate(-80deg);
+  }
+  100% {
+    top: -2em;
+    left: 1.33em;
+    opacity: 0;
+    transform: rotate(280deg);
+    visibility: hidden;
+  }
 }
 
 /*
