@@ -8,7 +8,6 @@ import { Route, BrowserRouter as Router, Switch, Redirect } from 'react-router-d
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/pages/Home';
-import About from './components/pages/About';
 import UX from './components/pages/UX';
 import Dev from './components/pages/Dev';
 import GraphicDesign from './components/pages/GraphicDesign';
@@ -20,7 +19,6 @@ function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={Home}/>
-        <Route path="/about" component={About} />
 
         <Route path="/ux" component={UX} />
         <Route path="/dev" component={Dev} />
