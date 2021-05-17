@@ -108,7 +108,7 @@ h6 {
   overflow: hidden;
   text-overflow: none;
   max-width: 172px;
-  animation: title-animation 2.4s;
+  animation: title-animation 2s;
   transition-timing-function: ease-in-out;
 }
 
