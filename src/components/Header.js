@@ -6,12 +6,15 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
 class Header extends Component {
+    //Kelvin<span>_</span>Kellner<span>.</span>
     render(){
         return (
             <Container id="header">
                 <Row>
-                    <Col style={{padding: 0, maxWidth: "162px"}}>
-                        <h4 id="title"><Link to="/">Kelvin<span>_</span>Kellner<span>.</span></Link></h4>
+                    <Col style={{padding: 0, maxWidth: "172px"}}>
+                        <h4 id="title" className="letter-by-letter">
+                            <Link to="/">Kelvin<span>_</span>Kellner<span>.</span></Link>
+                        </h4>
                     </Col>
                     <Col style={{padding: 0}}>
                         <ul className="nav nav-header" style={{marginTop: "0.2em"}}>

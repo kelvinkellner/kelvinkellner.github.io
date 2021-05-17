@@ -103,6 +103,24 @@ h6 {
   color: var(--main-color);
 }
 
+.letter-by-letter {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: none;
+  max-width: 172px;
+  animation: title-animation 2.4s;
+  transition-timing-function: ease-in-out;
+}
+
+@keyframes title-animation {
+  0% {
+    max-width: 0px;
+  }
+  100% {
+    max-width: 220px;
+  }
+}
+
 #header {
   padding-top: 3.6em;
   padding-bottom: 2.4em;
