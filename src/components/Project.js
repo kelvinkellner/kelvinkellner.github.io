@@ -36,9 +36,9 @@ class Project extends Component {
                     {actions === undefined ? <></> : (
                         <Row style={{ display: "flex", alignItems: "stretch" }}>
                             {actions.map((a, i) => i === actions.length-1 ?
-                                <a key={"ux-project-" + i} style={{ flexGrow: 1, padding: "0.16em" }} className="project-link" href={a.href} target="_blank" rel="noreferrer"><Button className="btn-project-link" variant="primary" block>{a.message}</Button></a>
+                                <a key={"project-link-" + i} style={{ flexGrow: 1, padding: "0.16em" }} className="project-link" href={a.href} target="_blank" rel="noreferrer"><Button className="btn-project-link" variant="primary" block>{a.message}</Button></a>
                             :
-                                <a key={"ux-project-" + i} style={{ flexGrow: 1, padding: "0.16em" }} className="project-link" href={a.href} target="_blank" rel="noreferrer"><Button className="btn-project-link" variant="secondary" block>{a.message}</Button></a>
+                                <a key={"project-link-" + i} style={{ flexGrow: 1, padding: "0.16em" }} className="project-link" href={a.href} target="_blank" rel="noreferrer"><Button className="btn-project-link" variant="secondary" block>{a.message}</Button></a>
                             )}
                         </Row>
                     )}

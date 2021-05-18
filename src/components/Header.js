@@ -3,12 +3,18 @@ import { Link, NavLink } from 'react-router-dom';
 
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
+import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
+
+import BgPetals from '../assets/images/bg-petals.png';
 
 class Header extends Component {
     //Kelvin<span>_</span>Kellner<span>.</span>
     render(){
-        return (
+        return (<>
+            <div style={{ width: "100%", height: "8px", display: "flex" }}>
+                <Image id="header-stripe" src={BgPetals} alt="Abstract wallpaper" style={{ marginTop: "0", width: "100%", objectFit: "cover" }}/>
+            </div>
             <Container id="header">
                 <Row>
                     <Col style={{padding: 0, maxWidth: "172px"}}>
@@ -30,7 +36,7 @@ class Header extends Component {
                     </Col>
                 </Row>
             </Container>
-        );
+        </>);
     }
 }
 

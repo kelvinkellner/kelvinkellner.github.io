@@ -8,8 +8,10 @@ import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 
 import Heading from '../Heading';
-import MeImg from '../../assets/images/kelvin-prom.jpg';
 import SocialButtons from '../SocialButtons';
+
+import BgPetals from '../../assets/images/bg-petals.png';
+import MeImg from '../../assets/images/kelvin-prom.jpg';
 
 let count = 0;
 
