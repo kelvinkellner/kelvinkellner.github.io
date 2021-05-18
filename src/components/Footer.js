@@ -17,7 +17,7 @@ class Footer extends Component {
                 <SocialButtons />
             </Container>
             <div style={{ width: "100%", height: "22px", display: "flex" }}>
-                <Image id="header-stripe" src={BgPetals} alt="Abstract wallpaper" style={{ marginTop: "0", width: "100%", objectFit: "cover", objectPosition: "bottom" }}/>
+                <Image id="footer-stripe" src={BgPetals} alt="Abstract wallpaper" style={{ marginTop: "0", width: "100%", objectFit: "cover", objectPosition: "bottom" }}/>
             </div>
         </>);
     }

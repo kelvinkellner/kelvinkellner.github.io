@@ -10,7 +10,6 @@ import Row from 'react-bootstrap/Row';
 import Heading from '../Heading';
 import SocialButtons from '../SocialButtons';
 
-import BgPetals from '../../assets/images/bg-petals.png';
 import MeImg from '../../assets/images/kelvin-prom.jpg';
 
 let count = 0;
