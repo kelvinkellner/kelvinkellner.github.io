@@ -9,6 +9,11 @@ import Heading from '../Heading';
 import Project from '../Project';
 import ProjectDeck from '../ProjectDeck';
 
+import LMSLogo from '../../assets/images/learning-management-system-logo.png';
+import UpQuestLogo from '../../assets/images/upquest-logo.png';
+import SourceForSportsLogo from '../../assets/images/source-for-sports-logo.png';
+import YouXCareersLogo from '../../assets/images/youx-careers-logo.png';
+
 class UX extends Component {
     render() {
         return(
@@ -33,7 +38,7 @@ class UX extends Component {
                     </Row>
                 </Container>
                 <ProjectDeck>
-                    <Project title="YouX Careers" role="UX Researcher &amp; Software Developer" year="2021" type="Academic Project" tech="React JS, HTML, CSS"
+                    <Project title="YouX Careers" role="UX Researcher &amp; Software Developer" year="2021" type="Academic Project" tech="React JS, HTML, CSS" imgSrc={YouXCareersLogo} imgAlt="YouX Careers Logo"
                     actions={[{
                             message: "Read Documentation",
                             href: "https://drive.google.com/drive/folders/1LjmRZoO5lwBRGvPomZDJ7DZgDkGw_uEH?usp=sharing"
@@ -51,7 +56,7 @@ class UX extends Component {
                             <li>Prototyping, Iteration</li>
                         </ul>
                     </Project>
-                    <Project title="UpQuest – Design For Change" role="UX Researcher" year="2021" type="Hackathon Submission"
+                    <Project title="UpQuest – Design For Change" role="UX Researcher" year="2021" type="Hackathon Submission" imgSrc={UpQuestLogo} imgAlt="UpQuest Logo"
                     actions={[{
                             message: "View Slide Deck",
                             href: "https://drive.google.com/file/d/1ibkh3q5ftH1jc6ssOXsa5PlyvZZT4HEL/view?usp=sharing"
@@ -66,7 +71,7 @@ class UX extends Component {
                             <li>Pitching, Presenting</li>
                         </ul>
                     </Project>
-                    <Project title="Learning Management System" role="UX Researcher" year="2020" type="Academic Project" tech="HTML, CSS, JavaScript"
+                    <Project title="Learning Management System" role="UX Researcher" year="2020" type="Academic Project" tech="HTML, CSS, JavaScript" imgSrc={LMSLogo} imgAlt="ModJournal Learning Management System Logo"
                     actions={[{
                             message: "Read Documentation",
                             href: "https://drive.google.com/drive/folders/1IeMS5170qbRe5HKVkFrXRRo_MAmyxdhk?usp=sharing"
@@ -83,7 +88,7 @@ class UX extends Component {
                             <li>Pitching, Presenting</li>
                         </ul>
                     </Project>
-                    <Project title="Source For Sports" role="UX Researcher" year="2019" type="Academic Project" tech="C#"
+                    <Project title="Source For Sports" role="UX Researcher" year="2019" type="Academic Project" tech="C#" imgSrc={SourceForSportsLogo} imgAlt="Source For Sports Logo"
                     actions={[{
                             message: "View Slide Deck",
                             href: "https://drive.google.com/file/d/1DJ-hISyE38oaiGKANxGW_0BiogmPG9Gy/view?usp=sharing"

@@ -9,6 +9,13 @@ import Heading from '../Heading';
 import Project from '../Project';
 import ProjectDeck from '../ProjectDeck';
 
+import DavesAutoLogo from '../../assets/images/daves-auto-service-logo.png';
+import KelvinKellnerLogo from '../../assets/images/kelvin-kellner-logo.png';
+import LetsGetThisBreadDuck from '../../assets/images/lets-get-this-bread-duck.png';
+import LitLogo from '../../assets/images/lit-logo.png';
+import LMSLogo from '../../assets/images/learning-management-system-logo.png';
+import YouXCareersLogo from '../../assets/images/youx-careers-logo.png';
+
 class Dev extends Component {
     render() {
         return(
@@ -32,14 +39,14 @@ class Dev extends Component {
                 </Row>
             </Container>
             <ProjectDeck>
-                <Project title="Portfolio Website" role="Front End Software Developer" year="2020-2021" type="Personal Project" tech="React JS, HTML, CSS"
+                <Project title="Portfolio Website" role="Front End Software Developer" year="2020-2021" type="Personal Project" tech="React JS, HTML, CSS" imgSrc={KelvinKellnerLogo} imgAlt="Kelvin Kellner website logo"
                 actions={[{
                         message: "View on GitHub",
                         href: "https://github.com/kelvinkellner/portfolio-v3"
                     }]}>
                     Designed and implemented a digital portfolio website for hosting academic and personal projects. Website made with React JS, React Bootstrap, and CSS.
                 </Project>
-                <Project title="YouX Careers" role="Software Developer &amp; UX Researcher" year="2021" type="Academic Project" tech="React JS, HTML, CSS"
+                <Project title="YouX Careers" role="Software Developer &amp; UX Researcher" year="2021" type="Academic Project" tech="React JS, HTML, CSS" imgSrc={YouXCareersLogo} imgAlt="YouX Careers Logo"
                 actions={[{
                         message: "View on GitHub",
                         href: "https://github.com/kelvinkellner/youx-careers"
@@ -49,7 +56,7 @@ class Dev extends Component {
                     }]}>
                     Worked on a team of 4 to design and implement a prototype for an online educational tool that matches students to UX careers that fit their skills and interests.
                 </Project>
-                <Project title="Learning Management System" role="Software Developer &amp; UX Researcher" year="2020" type="Academic Project" tech="HTML, CSS, JavaScript"
+                <Project title="Learning Management System" role="Software Developer &amp; UX Researcher" year="2020" type="Academic Project" tech="HTML, CSS, JavaScript" imgSrc={LMSLogo} imgAlt="ModJournal Learning Management System Logo"
                 actions={[{
                         message: "View on GitHub",
                         href: "https://github.com/kelvinkellner/lms-prototype"
@@ -59,21 +66,21 @@ class Dev extends Component {
                     }]}>
                     Worked with a partner to design and prototype a modular organizational tool similar to bullet journals for students pursuing self-paced learning options.
                 </Project>
-                <Project title="Dave's Auto Service" role="Web Designer &amp; Digital Media Manager" year="2015-2020" type="Part-Time Employement" tech="Wix Editor, Adobe Suite"
+                <Project title="Dave's Auto Service" role="Web Designer &amp; Digital Media Manager" year="2015-2020" type="Part-Time Employement" tech="Wix Editor, Adobe Suite" imgSrc={DavesAutoLogo} imgAlt="Dave's Auto Service Logo"
                 actions={[{
                         message: "Visit Website",
                         href: "https://www.davesautoservice.ca/"
                     }]}>
                     Designed a visually appealing website for customers to quickly discover important information about the business.
                 </Project>
-                <Project title="LIT: Learn to Invest Today" role="UX Researcher &amp; Software Developer" year="2019" type="Hackathon Submission" tech="React JS, CSS, Figma"
+                <Project title="LIT: Learn to Invest Today" role="UX Researcher &amp; Software Developer" year="2019" type="Hackathon Submission" tech="React JS, CSS, Figma" imgSrc={LitLogo} imgAlt="LIT: Learn to Invest Today Logo"
                 actions={[{
                         message: "View Slide Deck",
                         href: "https://drive.google.com/file/d/19IiIPuUV3Lje9slTnqC2WvaPvlL5MjDb/view?usp=sharing"
                     }]}>
                     Prototyped and pitched an idea for an online educational tool that teaches new investors all the basics of investing.
                 </Project>
-                <Project title="Let's Get This Bread" role="Game Developer" year="2019" type="Academic Project" tech="Java"
+                <Project title="Let's Get This Bread" role="Game Developer" year="2019" type="Academic Project" tech="Java" imgSrc={LetsGetThisBreadDuck} imgAlt="Let's Get This Bread pixel art Duck character"
                 actions={[{
                         message: "View on GitHub",
                         href: "https://github.com/kelvinkellner/Lets-Get-This-Bread"
