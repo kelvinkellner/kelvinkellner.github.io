@@ -11,9 +11,9 @@ import BgPetals from '../assets/images/bg-petals.png';
 class Footer extends Component {
     render() {
         return (<>
-            <Container id="footer" style={{paddingBottom: "32px"}}>{/* <div className="row" style={{marginBottom: "1em"}}> */}
+            <Container id="footer" style={{paddingBottom: "22px"}}>{/* <div className="row" style={{marginBottom: "1em"}}> */}
                 <hr />
-                <Row className="justify-content-center"><p className="text-center">Designed and developed with &#9829; by Kelvin Kellner.</p></Row>
+                <Row className="justify-content-center"><p className="text-center" style={{ marginBottom: "1.2em" }}>Designed and developed with &#9829; by Kelvin Kellner.</p></Row>
                 <SocialButtons />
             </Container>
             <div style={{ width: "100%", height: "22px", display: "flex" }}>

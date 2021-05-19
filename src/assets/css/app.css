@@ -185,6 +185,11 @@ h6 {
   color: var(--off-color-light);
 }
 
+.col-social-buttons {
+  width: max-content;
+  padding: 0;
+}
+
 .project-deck {
   padding: 0;
 }
