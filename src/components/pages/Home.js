@@ -26,7 +26,7 @@ class Home extends Component {
         clone.classList.add('smiley-easter-egg');
         window.setTimeout(function () {
             clone.remove();
-        }, 5000);
+        }, 6000);
     }
 
     render() {

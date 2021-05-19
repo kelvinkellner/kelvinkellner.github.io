@@ -270,7 +270,7 @@ h6 {
   background-color: white;
   border-radius: 100%;
   position: relative;
-  animation: showsmiley 5s;
+  animation: showsmiley 6s;
   transition-timing-function: ease-in-out;
 }
 
@@ -294,36 +294,23 @@ h6 {
     opacity: 1;
     transform: rotate(0);
   }
-  50% {
-    top: -2em;
-    left: 1.33em;
-    opacity: 1;
-    transform: rotate(40deg);
-  }
   60% {
     top: -2em;
-    left: 1.33em;
+    left: 3.33em;
     opacity: 1;
-    transform: rotate(50deg);
-  }
-  70% {
-    top: -2em;
-    left: 1.33em;
-    opacity: 1;
-    transform: rotate(-70deg);
+    transform: rotate(70deg);
   }
   80% {
     top: -2em;
-    left: 1.33em;
+    left: -0.66em;
     opacity: 1;
-    transform: rotate(-80deg);
+    transform: rotate(-120deg);
   }
   100% {
     top: -2em;
-    left: 1.33em;
+    left: 16.66em;
     opacity: 0;
-    transform: rotate(280deg);
-    visibility: hidden;
+    transform: rotate(660deg);
   }
 }
 
