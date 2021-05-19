@@ -1,5 +1,3 @@
-// import './assets/css/normalize.css';
-// import './assets/css/skeleton.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './assets/css/app.css';
 
@@ -13,7 +11,6 @@ import Dev from './components/pages/Dev';
 import GraphicDesign from './components/pages/GraphicDesign';
 
 function App() {
-  // basename={process.env.PUBLIC_URL}
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <Header />
