@@ -2,6 +2,7 @@
   "name": "kelvinkellner",
   "version": "1.0.0",
   "private": true,
+  "license": "MIT",
   "homepage": "https://kelvinkellner.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
