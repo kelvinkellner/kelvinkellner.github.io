@@ -1,5 +1,5 @@
-# Kelvin Kellner's Portfolio Website
+# [Kelvin Kellner.](https://kelvinkellner.github.io)
 
-Development branch. See Main for deployment.
+Portfolio website built with React &lt;3
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Main branch is for deployment, Development branch contains source code.
