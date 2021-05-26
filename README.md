@@ -1,4 +1,4 @@
-# [Kelvin Kellner.](https://kelvinkellner.github.io)
+# Kelvin Kellner.
 
 Portfolio website built with React &lt;3
 

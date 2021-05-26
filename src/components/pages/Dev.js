@@ -42,7 +42,7 @@ class Dev extends Component {
                 <Project title="Portfolio Website" role="Front End Software Developer" year="2020-2021" type="Personal Project" tech="React JS, HTML, CSS" imgSrc={KelvinKellnerLogo} imgAlt="Kelvin Kellner website logo"
                 actions={[{
                         message: "View on GitHub",
-                        href: "https://github.com/kelvinkellner/kelvinkellner.github.io/tree/development"
+                        href: "https://github.com/kelvinkellner/kelvinkellner.github.io/"
                     }]}>
                     Designed and implemented a digital portfolio website for hosting academic and personal projects. Website made with React JS, React Bootstrap, and CSS.
                 </Project>
