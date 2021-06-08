@@ -10,7 +10,7 @@ class ProjectDeck extends Component {
     render() {
         const count = Children.count(this.props.children);
         return(
-            <Jumbotron style={{paddingBottom: "2em", paddingTop: "1em"}}>
+            <Jumbotron style={{paddingBottom: "2em", paddingTop: "1em", marginTop: "1.4em"}}>
                 <Container className="project-deck">
                     <Row xs={1} lg={count % 3 === 0 || count % 3 === 2 ? 3 : (count % 2 === 0 ? 2 : 1)}>
                     {/* <Row xs={1} sm={count % 3 === 0 ? 3 : (count % 2 === 0 ? 2 : 1)}> */}

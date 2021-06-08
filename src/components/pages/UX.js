@@ -20,7 +20,7 @@ class UX extends Component {
             <div id="ux-page" className="main">
                 <Container>
                     <Row>
-                        <Breadcrumb style={{margin: "1em 0 1.8em 0"}}>
+                        <Breadcrumb style={{ margin: "1em 0 1.8em 0" }}>
                             <Breadcrumb.Item linkAs={Link} linkProps={{ to: "/" }}>Portfolio.</Breadcrumb.Item>
                             <Breadcrumb.Item active>UX Design.</Breadcrumb.Item>
                         </Breadcrumb>
@@ -32,9 +32,6 @@ class UX extends Component {
                         <p>I love design thinking and the concept of user-centric design. The idea of putting the user first seems so simple, but it is surprising to see just how much change is possible when businesses start with this principle at their core.</p>
                         <p>I have completed 4 of 6 courses needed for my UX minor so far, including: Design Thinking, Information Design, Interaction Design, and UX Strategy. I am also currently enrolled in a course on Research in UX, and am very excited to learn about experimental design and research methods! </p>
                         <p>Throughout my time at University, I have had the chance to perform countless interviews and usability studies, designed numerous wireframes and mockups, created proposals, and designed many prototypes of various levels of fidelity and functionality – some of which you can find below.</p>
-                    </Row>
-                    <Row style={{marginTop: "2em"}}>
-                        <Heading style={{marginBottom: "0.8em"}}>UX Projects<span>.</span></Heading>
                     </Row>
                 </Container>
                 <ProjectDeck>
