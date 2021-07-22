@@ -31,7 +31,7 @@ class Dev extends Component {
                     <Heading>Software <span>&amp;</span> Website Development<span>.</span></Heading>
                 </Row>
                 <Row>
-                    <p>Puzzles have always fascinated me. From when I was a kid playing with Rubik's Cubes, playing challenging board games, or learning to code – I have never been the type of person to shy away from challenges. I am a problem-solver after all. I love working with others to analyse issues, brainstorm ideas, and begin implementing solutions.</p>
+                    <p>Puzzles have always fascinated me. From when I was a kid playing with Rubik&apos;s Cubes, playing challenging board games, or learning to code – I have never been the type of person to shy away from challenges. I am a problem-solver after all. I love working with others to analyse issues, brainstorm ideas, and begin implementing solutions.</p>
                     <p>University has given me the opportunity to learn tons of new information about mathematics, computing, and algorithms. I have also gained a strong interest in UI/UX Design and creating products that are easy to use and serve some benefit to users. I hope to continue exploring the worlds of software, website, and mobile development in the years to come. Until then, you can find some of the past projects I have worked on below.</p>
                 </Row>
             </Container>
@@ -63,7 +63,7 @@ class Dev extends Component {
                     }]}>
                     Worked with a partner to design and prototype a modular organizational tool similar to bullet journals for students pursuing self-paced learning options.
                 </Project>
-                <Project title="Dave's Auto Service" role="Web Designer &amp; Digital Media Manager" year="2015-2020" type="Part-Time Employement" tech="Wix Editor, Adobe Suite" imgSrc={DavesAutoLogo} imgAlt="Dave's Auto Service Logo"
+                <Project title="Dave&apos;s Auto Service" role="Web Designer &amp; Digital Media Manager" year="2015-2020" type="Part-Time Employement" tech="Wix Editor, Adobe Suite" imgSrc={DavesAutoLogo} imgAlt="Dave's Auto Service Logo"
                 actions={[{
                         message: "Visit Website",
                         href: "https://www.davesautoservice.ca/"
@@ -77,7 +77,7 @@ class Dev extends Component {
                     }]}>
                     Prototyped and pitched an idea for an online educational tool that teaches new investors all the basics of investing.
                 </Project>
-                <Project title="Let's Get This Bread" role="Game Developer" year="2019" type="Academic Project" tech="Java" imgSrc={LetsGetThisBreadDuck} imgAlt="Let's Get This Bread pixel art Duck character"
+                <Project title="Let&apos;s Get This Bread" role="Game Developer" year="2019" type="Academic Project" tech="Java" imgSrc={LetsGetThisBreadDuck} imgAlt="Let's Get This Bread pixel art Duck character"
                 actions={[{
                         message: "View on GitHub",
                         href: "https://github.com/kelvinkellner/Lets-Get-This-Bread"

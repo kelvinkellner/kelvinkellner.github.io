@@ -16,7 +16,6 @@ function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={Home}/>
-
         <Route path="/ux" component={UX} />
         <Route path="/dev" component={Dev} />
         <Route path="/graphic-design" component={GraphicDesign} />
@@ -27,7 +26,6 @@ function App() {
       </Switch>
       <Footer />
     </Router>
-    
   );
 }
 

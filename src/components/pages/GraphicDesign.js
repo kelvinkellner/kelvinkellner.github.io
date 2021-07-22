@@ -40,12 +40,12 @@ class GraphicDesign extends Component {
                     }]}>
                     Collaborated with creative director to design vector-art illustrations for logos, branding graphics, and promotional assets. Edited photographs to create digital product mockups.
                 </Project>
-                <Project title="Dave's Auto Service" role="Digital Media Manager, Web Designer" year="2015-2021" type="Part-Time Employement" tech="Photoshop" imgSrc={DavesAutoLogo} imgAlt="Dave's Auto Service Logo"
+                <Project title="Dave&apos;s Auto Service" role="Digital Media Manager, Web Designer" year="2015-2021" type="Part-Time Employement" tech="Photoshop" imgSrc={DavesAutoLogo} imgAlt="Dave's Auto Service Logo"
                 actions={[{
                         message: "Visit Website",
                         href: "https://www.davesautoservice.ca/"
                     }]}>
-                    Created designs for logos, business cards, website, road signs, store-front signs, social media posts and more. Managed company's social media presence.
+                    Created designs for logos, business cards, website, road signs, store-front signs, social media posts and more. Managed social media presence for the company.
                 </Project>
                 <Project title="Digital Photo Illustrations" role="Graphic Designer" year="2016-2020" type="Academic Project" tech="Photoshop" imgSrc={KGodlessLogo} imgAlt="K. Godless Instagram Portfolio Logo"
                 actions={[{

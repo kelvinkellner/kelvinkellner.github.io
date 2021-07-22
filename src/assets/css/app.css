@@ -234,6 +234,7 @@ h6 {
   font-weight: 500;
   margin-right: 0.32rem;
   margin-top: -0.24rem;
+  text-decoration: solid;
 }
 
 /* Add some padding inside the card container */

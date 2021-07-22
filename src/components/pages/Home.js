@@ -36,7 +36,7 @@ class Home extends Component {
                     <Col style={{ padding: "2em 2em 0 0" }}>
                         <Image src={MeImg} alt="Photograph of Kelvin Kellner" rounded fluid></Image>
                     </Col>
-                    <Col sm={12} lg={8} xl={8} style={{ padding: 0, margin: "3.2em 0 0 0.2em" }}>
+                    <Col sm={12} lg={8} style={{ padding: 0, margin: "3.2em 0 0 0.2em" }}>
                         <Heading>Passionate About Learning <span>&amp;</span> Creating<span>.</span></Heading>
                         <p>
                             <Button variant="link" className="btn-secret-link" onClick={this.smileyEasterEgg}>Hello!</Button><svg id="smiley" style={{ visibility: "hidden", margin: "-18px" }} xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"> 
@@ -44,7 +44,7 @@ class Home extends Component {
                             I am a software developer &amp; visual designer currently studying Computer Science, User-Experience Design, &amp; Mathematics at Wilfrid Laurier University. 
                             I have an affection for building new skills and helping others grow.</p>
                         <p>
-                            Feel free to browse through some of the projects I have been working on, and don't feel too shy to reach out:
+                            Feel free to browse through some of the projects I have been working on, and don&apos;t be too shy to reach out:
                         </p>                            
                         <SocialButtons style={{ margin: "1.6em 0 0 0", fontSize: "1.1rem" }} justifyContent="left" iconSize="28" shiftDown="4" />
                     </Col>
