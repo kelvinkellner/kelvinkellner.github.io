@@ -54,9 +54,9 @@ class Home extends Component {
                     <Heading>What would you like to see<span>?</span></Heading>
                 </Row>
                 <Row xs={1} md={3} style={{ marginBottom: "4em" }}>
-                    <Col><Button variant="section-selector"><Link to="/ux"><h3>UX Design</h3></Link></Button></Col>
-                    <Col><Button variant="section-selector"><Link to="/dev"><h3>Development</h3></Link></Button></Col>
-                    <Col><Button variant="section-selector"><Link to="/graphic-design"><h3>Graphic Design</h3></Link></Button></Col>
+                    <Col><Button variant="section-selector"><Link to="/ux"><h3>UX Design.</h3></Link></Button></Col>
+                    <Col><Button variant="section-selector"><Link to="/dev"><h3>Development.</h3></Link></Button></Col>
+                    <Col><Button variant="section-selector"><Link to="/graphic-design"><h3>Graphic Design.</h3></Link></Button></Col>
                 </Row>
             </Container>
         );

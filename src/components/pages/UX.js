@@ -13,6 +13,7 @@ import LMSLogo from '../../assets/images/learning-management-system-logo.png';
 import UpQuestLogo from '../../assets/images/upquest-logo.png';
 import SourceForSportsLogo from '../../assets/images/source-for-sports-logo.png';
 import YouXCareersLogo from '../../assets/images/youx-careers-logo.png';
+import GoogleVsSamsung from '../../assets/images/google-vs-samsung.png';
 
 class UX extends Component {
     render() {
@@ -30,7 +31,7 @@ class UX extends Component {
                     </Row>
                     <Row>
                         <p>I love design thinking and the concept of user-centric design. The idea of putting the user first seems so simple, but it is surprising to see just how much change is possible when businesses start with this principle at their core.</p>
-                        <p>I have completed 4 of 6 courses needed for my UX minor so far, including: Design Thinking, Information Design, Interaction Design, and UX Strategy. I am also currently enrolled in a course on Research in UX, and am very excited to learn about experimental design and research methods! </p>
+                        <p>I have completed 5 of 6 courses needed for my UX minor so far, including: Design Thinking, Information Design, Interaction Design, UX Strategy, and Research in UX. I have enjoyed these courses deeply, and am always excited to learn more about how to create better products that serve to benefit people and their needs with all the complexity and nuance they bring with them.</p>
                         <p>Throughout my time at University, I have had the chance to perform countless interviews and usability studies, designed numerous wireframes and mockups, created proposals, and designed many prototypes of various levels of fidelity and functionality – some of which you can find below.</p>
                     </Row>
                 </Container>
@@ -66,6 +67,19 @@ class UX extends Component {
                             <li>User Research, Conducting Interviews</li>
                             <li>Empathy Maps, User Stories, Proto-Personas</li>
                             <li>Pitching, Presenting</li>
+                        </ul>
+                    </Project>
+                    <Project title="Calendar App Comparison Case Study" role="UX Researcher" year="2021" type="Academic Project" imgSrc={GoogleVsSamsung} imgAlt="Samsung Calendar versus Google Calendar Logos"
+                    actions={[{
+                            message: "Read Documentation",
+                            href: "https://drive.google.com/drive/folders/14ZcwYPGxhjjjnIxPxa43ZNC7P3m5Z3sW?usp=sharing"
+                        }]}>
+                        Worked independently to conduct studies, collect metrics and perform analytical comparisons between the two systems through the lense of the User-Experience.
+                        <ul>
+                            <li>User Research, Conducting Interviews, Behavioural Studies</li>
+                            <li>Data Collection, Data Analysis</li>
+                            <li>Using Heuristics, Usability Scores</li>
+                            <li>Summarizing, Presenting Findings</li>
                         </ul>
                     </Project>
                     <Project title="Learning Management System" role="UX Researcher" year="2020" type="Academic Project" tech="HTML, CSS, JavaScript" imgSrc={LMSLogo} imgAlt="ModJournal Learning Management System Logo"

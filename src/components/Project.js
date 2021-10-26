@@ -16,7 +16,7 @@ class Project extends Component {
                 <Col>
                     {this.props.imgSrc === undefined ? <></> : (
                         <div style={{ width: "100%", height: "82px", marginBottom: "1.32em", display: "flex", justifyContent: "center" }}>
-                            <Image src={this.props.imgSrc} alt={this.props.imgAlt} width="auto" height="auto" style={{ maxWidth: "320px", maxHeight: "82px", display: "block", margin: "auto", objectFit: "cover" }} />
+                            <Image src={this.props.imgSrc} alt={this.props.imgAlt} width="auto" height="auto" style={{ width: "320px", maxWidth: "100%", maxHeight: "82px", display: "block", margin: "auto", objectFit: "contain" }} />
                         </div>
                     )}
                     <Row>

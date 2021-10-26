@@ -28,8 +28,8 @@ class GraphicDesign extends Component {
                     <Heading>Graphic Design<span>.</span></Heading>
                 </Row>
                 <Row>
-                    <p>I have always considered myself to be a creative-type. Mastering new tools and talents has always been a favourite pass-time of mine. Graphic Design and the Visual Arts have allowed me to express my thoughts and emotions in a form that is both enjoyable to learn, and satisfying to share with others.</p>
-                    <p>I have experience doing freelance work with local businesses in Ontario, Canada. Products I have worked on range from logos, business cards, and posters, to entire website layouts, crazy photo edits, product mockups, and more. I enjoy sketching my ideas on paper and using my computer to turn realities. You can find some of my previous design work below.</p>
+                    <p>I have always considered myself to be a creative-type. Mastering new tools and talents has always been a favourite pass-time of mine. Graphic Design and the Visual Arts have allowed me to express my thoughts and emotions in a form that is both enjoyable for me to learn, and satisfying to share with others.</p>
+                    <p>I have experience doing freelance work with local businesses in Ontario, Canada. Products I have worked on range from logos, business cards, and posters, to entire website layouts, crazy photo edits, product mockups, and more. I enjoy sketching my ideas on paper and using my computer to turn concepts into realities. You can find some of my previous design work below.</p>
                 </Row>
             </Container>
             <ProjectDeck>
