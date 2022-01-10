@@ -9,12 +9,13 @@ import Heading from '../Heading';
 import Project from '../Project';
 import ProjectDeck from '../ProjectDeck';
 
-import DavesAutoLogo from '../../assets/images/daves-auto-service-logo.png';
+//import DavesAutoLogo from '../../assets/images/daves-auto-service-logo.png';
 import KelvinKellnerLogo from '../../assets/images/kelvin-kellner-logo.png';
 import LetsGetThisBreadDuck from '../../assets/images/lets-get-this-bread-duck.png';
 import LMSLogo from '../../assets/images/learning-management-system-logo.png';
 import YouXCareersLogo from '../../assets/images/youx-careers-logo.png';
 import MuSpaceLogo from '../../assets/images/muspace-logo.svg';
+import HealthyHawkLogo from '../../assets/images/healthyhawk-logo.png';
 
 class Dev extends Component {
     render() {
@@ -35,7 +36,7 @@ class Dev extends Component {
                     <p>University has given me the opportunity to learn tons of new information about mathematics, computing, and algorithms. I am fascinated with the idea of creating products that can solve problems efficiently and effectively, and I believe that building and testing prototypes is the best way to achieve successful outcomes. I hope to continue exploring the worlds of software, website, and mobile development in the years to come. In the mean time, you can find some of the past projects I have worked on below.</p>
                 </Row>
             </Container>
-            <ProjectDeck>
+            <ProjectDeck count={3}>
                 <Project title="Portfolio Website" role="Front End Software Developer" year="2020-2021" type="Personal Project" tech="React JS, HTML, CSS" imgSrc={KelvinKellnerLogo} imgAlt="Kelvin Kellner website logo"
                 actions={[{
                         message: "View on GitHub",
@@ -52,6 +53,16 @@ class Dev extends Component {
                         href: "https://muspace-621b5.web.app/"
                     }]}>
                     Worked as a Front End Web Developer on a team of 14 to develop a social media platform with an emphasis on sharing music and connecting with other listeners.
+                </Project>
+                <Project title="HealthyHawk" role="Software Developer" year="2021" type="Academic Project" tech="Android Studio, Java, XML" imgSrc={HealthyHawkLogo} imgAlt="Healthy Hawk app logo"
+                actions={[{
+                        message: "View on GitHub",
+                        href: "https://github.com/Flatfire/CP470Proj"
+                    }, {
+                        message: "Watch Demo",
+                        href: "https://drive.google.com/file/d/1pmYB6o_ziJT8AAKS-rssy1aqOsPuO2ik/view?usp=sharing"
+                    }]}>
+                    Worked on a team of 5 to design and implement a fitness activity tracking and goal-setting mobile app for Android.
                 </Project>
                 <Project title="YouX Careers" role="Software Developer &amp; UX Researcher" year="2021" type="Academic Project" tech="React JS, HTML, CSS" imgSrc={YouXCareersLogo} imgAlt="YouX Careers Logo"
                 actions={[{
@@ -73,13 +84,13 @@ class Dev extends Component {
                     }]}>
                     Worked with a partner to design and prototype a modular organizational tool similar to bullet journals for students pursuing self-paced learning options.
                 </Project>
-                <Project title="Dave&apos;s Auto Service" role="Web Designer &amp; Digital Media Manager" year="2015-2020" type="Part-Time Employement" tech="Wix Editor, Adobe Suite" imgSrc={DavesAutoLogo} imgAlt="Dave's Auto Service Logo"
+                {/**<Project title="Dave&apos;s Auto Service" role="Web Designer &amp; Digital Media Manager" year="2015-2020" type="Part-Time Employement" tech="Wix Editor, Adobe Suite" imgSrc={DavesAutoLogo} imgAlt="Dave's Auto Service Logo"
                 actions={[{
                         message: "Visit Website",
                         href: "https://www.davesautoservice.ca/"
                     }]}>
                     Designed a visually appealing website for customers to quickly discover important information about the business.
-                </Project>
+                </Project>**/}
                 <Project title="Let&apos;s Get This Bread" role="Game Developer" year="2019" type="Academic Project" tech="Java" imgSrc={LetsGetThisBreadDuck} imgAlt="Let's Get This Bread pixel art Duck character"
                 actions={[{
                         message: "View on GitHub",

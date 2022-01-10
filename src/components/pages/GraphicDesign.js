@@ -47,7 +47,7 @@ class GraphicDesign extends Component {
                     }]}>
                     Created designs for logos, business cards, website, road signs, store-front signs, social media posts and more. Managed social media presence for the company.
                 </Project>
-                <Project title="Digital Photo Illustrations" role="Graphic Designer" year="2016-2020" type="Academic Project" tech="Photoshop" imgSrc={KGodlessLogo} imgAlt="K. Godless Instagram Portfolio Logo"
+                <Project title="Digital Illustrations" role="Graphic Designer" year="2016-2020" type="Academic Project" tech="Photoshop" imgSrc={KGodlessLogo} imgAlt="K. Godless Instagram Portfolio Logo"
                 actions={[{
                         message: "View Instagram Profile",
                         href: "https://www.instagram.com/k.godless/"
