@@ -54,7 +54,7 @@ class Dev extends Component {
                     }]}>
                     Worked as a Front End Web Developer on a team of 14 to develop a social media platform with an emphasis on sharing music and connecting with other listeners.
                 </Project>
-                <Project title="HealthyHawk" role="Software Developer" year="2021" type="Academic Project" tech="Android Studio, Java, XML" imgSrc={HealthyHawkLogo} imgAlt="Healthy Hawk app logo"
+                <Project title="HealthyHawk" role="Android App Developer" year="2021" type="Academic Project" tech="Android Studio, Java, XML" imgSrc={HealthyHawkLogo} imgAlt="Healthy Hawk app logo"
                 actions={[{
                         message: "View on GitHub",
                         href: "https://github.com/Flatfire/CP470Proj"
