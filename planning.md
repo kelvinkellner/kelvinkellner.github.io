@@ -1,0 +1,17 @@
+# Outline
+- Home
+    - About Me
+    - Experience
+    - Projects & Hobbies
+        - Featured
+        - Use tags? - Word Cloud
+        - Music
+        - Sewing
+        - Design
+        - Coding
+        - Gardening
+        - Writing
+    - "Currently Doing" section
+    - Contact
+    - Shop?
+- Back-End for quick editing without publishing to Git?
