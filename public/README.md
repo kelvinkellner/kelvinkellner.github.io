@@ -1,4 +1,4 @@
-# Kelvin Kellner.
+# Kelvin Kellner
 
 Portfolio website built with React &lt;3
 
