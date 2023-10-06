@@ -1,3 +1,8 @@
+#header {
+    padding-top: 3.6em;
+    padding-bottom: 2.4em;
+}
+  
 #header-stripe-container {
     width: 100%;
     height: 8px;
@@ -13,6 +18,7 @@
 
 #profile-pic-container {
     max-width: max-content;
+    margin-right: 10px;
 }
 
 #profile-pic {

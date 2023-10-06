@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 
 import './header.css';
 import BgPetals from '@images/bg-petals.png';
-import ProfilePic from '@images/kelvin-kellner-rbg.jpg';
+import ProfilePic from '@images/kelvin-kellner-rbg-crop.jpg';
 import Title from '@components/title';
 
 class Header extends Component {
