@@ -1,0 +1,13 @@
+#footer-stripe-container {
+    width: 100%;
+    height: 22px;
+    display: flex;
+    margin-top: 32px;
+}
+
+#footer-stripe {
+    margin-bottom: 0;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}

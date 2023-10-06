@@ -1,11 +1,11 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import './assets/css/app.css';
+import './app.css';
 
 import { Route, BrowserRouter as Router, Switch, Redirect } from 'react-router-dom';
 
-import Header from '@Components/Header';
-import Footer from '@Components/Footer';
-import Home from '@Views/Home';
+import Home from '@views/home';
+import Header from '@views/header';
+import Footer from '@views/footer';
 
 function App() {
   return (

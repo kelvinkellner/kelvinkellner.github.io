@@ -1,7 +1,9 @@
+import Heading from '@components/heading';
+
 const Home = () => {
   return (
     <div className="container">
-      <h1>Home</h1>
+      <Heading>Home</Heading>
     </div>
   );
 };
