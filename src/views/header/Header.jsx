@@ -29,7 +29,7 @@ class Header extends Component {
                 alt="Photograph of Kelvin Kellner smiling into the camera while wearing a green fleece sweater unzipped over a black t-shirt, brightly coloured flowers are visible in the blurry background."
               />
             </Col>
-            <Col className="flex-grow-1">
+            <Col className="flex-grow-1 d-flex flex-column justify-content-center">
               <Title />
               <h6 id="subtitle">Tagline, tagline, tagline</h6>
             </Col>

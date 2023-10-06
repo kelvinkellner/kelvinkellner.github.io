@@ -96,8 +96,8 @@ h6 {
   font-weight: 600;
   font-family: 'Gontserrat', 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  font-size: 36px;
-  letter-spacing: -0.02em;
+  font-size: 40px;
+  letter-spacing: -0.03em;
 }
 #title a {
   text-decoration: none;
@@ -107,10 +107,10 @@ h6 {
   color: var(--main-color);
 }
 .tighter-spacing {
-  letter-spacing: -0.05em;
+  letter-spacing: -0.06em;
 }
 .accent-gradient-i {
-  background: linear-gradient(0deg, var(--off-color-dark) 0%, var(--off-color-dark) 44%, var(--main-color-light) 100%);
+  background: linear-gradient(0deg, var(--off-color-dark) 0%, var(--off-color-dark) 50%, var(--main-color) 70%, var(--main-color) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
