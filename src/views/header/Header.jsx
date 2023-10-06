@@ -8,6 +8,7 @@ import Row from 'react-bootstrap/Row';
 import './header.css';
 import BgPetals from '@images/bg-petals.png';
 import ProfilePic from '@images/kelvin-kellner-rbg.jpg';
+import Title from '@components/title';
 
 class Header extends Component {
   render() {
@@ -29,7 +30,7 @@ class Header extends Component {
               />
             </Col>
             <Col className="flex-grow-1">
-              <h4 id="title">Kelvin Kellner</h4>
+              <Title />
               <h6 id="subtitle">Tagline, tagline, tagline</h6>
             </Col>
           </Row>

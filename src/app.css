@@ -12,7 +12,7 @@
 html {
   scroll-behavior: smooth;
 }
-span {
+.accent {
   color: var(--main-color);
 }
 body {
@@ -97,6 +97,7 @@ h6 {
   font-family: 'Gontserrat', 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   font-size: 36px;
+  letter-spacing: -0.02em;
 }
 #title a {
   text-decoration: none;
@@ -104,6 +105,14 @@ h6 {
 }
 #title a:hover {
   color: var(--main-color);
+}
+.tighter-spacing {
+  letter-spacing: -0.05em;
+}
+.accent-gradient-i {
+  background: linear-gradient(0deg, var(--off-color-dark) 0%, var(--off-color-dark) 44%, var(--main-color-light) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hover-expand-animation {
