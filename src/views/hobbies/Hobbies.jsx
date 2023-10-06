@@ -9,35 +9,31 @@ const Hobbies = () => {
       </CardText>
       <CardEntry>
         <CardText>
-          <h6>Sewing</h6>
+          <h5>Sewing</h5>
           [pictures, and written]
         </CardText>
       </CardEntry>
-      <br />
       <CardEntry>
         <CardText>
-          <h6>Design</h6>
+          <h5>Design</h5>
           [pictures, and written]
         </CardText>
       </CardEntry>
-      <br />
       <CardEntry>
         <CardText>
-          <h6>Gardening</h6>
+          <h5>Gardening</h5>
           [pictures, and written]
         </CardText>
       </CardEntry>
-      <br />
       <CardEntry>
         <CardText>
-          <h6>Music production</h6>
+          <h5>Music production</h5>
           [pictures, and written]
         </CardText>
       </CardEntry>
-      <br />
       <CardEntry>
         <CardText>
-          <h6>Hiking, cycling, camping, and walks</h6>
+          <h5>Hiking, cycling, camping, and walks</h5>
           [pictures, and written]
         </CardText>
       </CardEntry>
