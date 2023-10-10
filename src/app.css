@@ -35,37 +35,6 @@ a:hover {
   color: var(--main-color-dark);
 }
 
-.nav {
-  list-style-type: none;
-  padding: 0;
-  float: right;
-}
-
-.nav-item {
-  display: inline;
-  height: 100%;
-  padding-left: 1rem;
-}
-.nav-item a {
-  color: var(--off-color);
-  text-decoration: none;
-}
-.nav-item a:hover {
-  color: var(--off-color-dark);
-  text-decoration: underline;
-}
-.nav-item .active {
-  color: var(--main-color);
-}
-.nav-item .active:hover {
-  color: var(--main-color-dark);
-}
-
-.nav-header {
-  font-size: 1.1rem;
-  justify-content: right;
-}
-
 p {
   font-size: 1.2rem;
   margin-bottom: 1.4rem;

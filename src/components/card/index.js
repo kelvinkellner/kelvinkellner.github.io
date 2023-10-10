@@ -1,6 +1,6 @@
+import Accordion from './Accordion';
 import Card from './Card';
 import CardEntry from './CardEntry';
-import CardStack from './CardStack';
 import CardText from './CardText';
 
-export { Card, CardEntry, CardStack, CardText };
+export { Accordion, Card, CardEntry, CardText };
