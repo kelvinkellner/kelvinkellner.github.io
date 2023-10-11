@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+import AbstractStripe from '@components/abstract-stripe';
+
 const Card = ({ title, children, id, collapsed = false, parentId }) => {
   const [expanded, setExpanded] = useState(!collapsed);
 
@@ -7,6 +9,7 @@ const Card = ({ title, children, id, collapsed = false, parentId }) => {
 
   return (
     <div className="card">
+      <AbstractStripe id={id} />
       <div className="card-header" id={id}>
         <button
           className="btn btn-link"

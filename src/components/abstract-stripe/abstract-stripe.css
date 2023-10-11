@@ -1,0 +1,11 @@
+.abstract-stripe-container {
+    width: 100%;
+    display: flex;
+    border: 1px solid lightgrey;
+    border-top: 0;
+}
+
+.abstract-stripe {
+    width: 100%;
+    object-fit: cover;
+}
