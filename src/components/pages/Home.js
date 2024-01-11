@@ -29,9 +29,14 @@ class Home extends Component {
     }, 6000);
   }
 
+  constructor(props) {
+    super(props);
+    this.mainRef = React.createRef();
+  }
+
   render() {
     return (
-      <Container id="home-page" className="main">
+      <Container id="home-page" className="main mt-1" ref={this.mainRef}>
         <Row style={{ paddingBottom: '4em' }}>
           <Col style={{ padding: '2em 2em 0 0' }}>
             <Image src={MeImg} alt="Photograph of Kelvin Kellner" rounded fluid></Image>
@@ -77,21 +82,21 @@ class Home extends Component {
         <Row xs={1} md={3} style={{ marginBottom: '4em' }}>
           <Col>
             <Button variant="section-selector">
-              <Link to="/dev">
+              <Link to="/dev" onClick={this.scrollToTop}>
                 <h3>Software.</h3>
               </Link>
             </Button>
           </Col>
           <Col>
             <Button variant="section-selector">
-              <Link to="/ux">
+              <Link to="/ux" onClick={this.scrollToTop}>
                 <h3>UX Design.</h3>
               </Link>
             </Button>
           </Col>
           <Col>
             <Button variant="section-selector">
-              <Link to="/graphic-design">
+              <Link to="/graphic-design" onClick={this.scrollToTop}>
                 <h3>Graphic Design.</h3>
               </Link>
             </Button>
@@ -100,6 +105,8 @@ class Home extends Component {
       </Container>
     );
   }
+
+  scrollToTop = () => window.scroll({ top: 0, left: 0, behavior: 'auto' });
 }
 
 export default Home;
