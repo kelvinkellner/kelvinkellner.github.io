@@ -25,7 +25,7 @@ class Header extends Component {
                     <Col style={{padding: 0}}>
                         <ul className="nav nav-header" style={{marginTop: "0.2em"}}>
                             <li className="nav-item"><NavLink to="/ux" activeClassName="active" className="hover-space">UX Design.</NavLink></li>
-                            <li className="nav-item"><NavLink to="/dev" activeClassName="active" className="hover-space">Development.</NavLink></li>
+                            <li className="nav-item"><NavLink to="/dev" activeClassName="active" className="hover-space">Software.</NavLink></li>
                             <li className="nav-item"><NavLink to="/graphic-design" activeClassName="active" className="hover-space">Graphic Design.</NavLink></li>
                             {/*
                                 <li className="nav-item"><NavLink to="/" activeClassName="active">Portfolio.</NavLink></li>

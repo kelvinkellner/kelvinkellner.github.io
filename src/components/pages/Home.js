@@ -85,7 +85,7 @@ class Home extends Component {
           <Col>
             <Button variant="section-selector">
               <Link to="/dev">
-                <h3>Development.</h3>
+                <h3>Software.</h3>
               </Link>
             </Button>
           </Col>
