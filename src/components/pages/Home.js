@@ -77,15 +77,15 @@ class Home extends Component {
         <Row xs={1} md={3} style={{ marginBottom: '4em' }}>
           <Col>
             <Button variant="section-selector">
-              <Link to="/ux">
-                <h3>UX Design.</h3>
+              <Link to="/dev">
+                <h3>Software.</h3>
               </Link>
             </Button>
           </Col>
           <Col>
             <Button variant="section-selector">
-              <Link to="/dev">
-                <h3>Software.</h3>
+              <Link to="/ux">
+                <h3>UX Design.</h3>
               </Link>
             </Button>
           </Col>
