@@ -226,7 +226,7 @@ h6 {
   color: var(--main-color-dark);
 }
 .btn-secret-link {
-  width: min-content;
+  width: max-content;
   height: max-content;
   margin: 0;
   padding: 0;
