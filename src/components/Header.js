@@ -47,11 +47,6 @@ class Header extends Component {
                     Graphic Design.
                   </NavLink>
                 </li>
-                {/*
-                                <li className="nav-item"><NavLink to="/" activeClassName="active">Portfolio.</NavLink></li>
-                                <li className="nav-item"><NavLink to="/hobbies" activeClassName="active">Hobbies.</NavLink></li>
-                                <li className="nav-item"><NavLink to="/about" activeClassName="active">About Me.</NavLink></li>
-                            */}
               </ul>
             </Col>
           </Row>
