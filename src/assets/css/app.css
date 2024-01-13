@@ -217,6 +217,9 @@ h6 {
   background-color: var(--main-color-dark);
   border-color: var(--main-color-dark);
 }
+.btn-disabled {
+  background-color: var(--alt-color-dark);
+}
 .btn-link {
   color: var(--main-color);
 }

@@ -98,8 +98,13 @@ class GraphicDesign extends Component {
             imgAlt="Dave's Auto Service Logo"
             actions={[
               {
-                message: 'Visit Website',
+                message: (
+                  <>
+                    <s>Visit Website</s> (Permanently Closed)
+                  </>
+                ),
                 href: 'https://www.davesautoservice.ca/',
+                type: 'disabled',
               },
             ]}
           >
