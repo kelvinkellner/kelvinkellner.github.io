@@ -68,7 +68,7 @@ class Project extends Component {
                   href={a.type && a.type === 'disabled' ? undefined : a.href}
                   target="_blank"
                   rel="noreferrer"
-                  role="link"
+                  role={a.type && a.type === 'disabled' ? 'link' : undefined}
                   aria-disabled={a.type && a.type === 'disabled'}
                 >
                   <Button

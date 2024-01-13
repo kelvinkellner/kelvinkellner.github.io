@@ -42,22 +42,22 @@ class GraphicDesign extends Component {
             <p>
               The creative arts and entertainment sector has always had a pull on me. Music is a huge part of my life,
               lately I've been fortunate for the opportunity to help my good family friend, Nikhil Arora (
-              <a href="https://www.instagram.com/nkhlsview/" target="_blank">
+              <a href="https://www.instagram.com/nkhlsview/" target="_blank" rel="noreferrer">
                 @nkhlsview
               </a>
               ), to shoot music videos for underground hip-hop/rap artists. Before that, I worked with his brother,
               Bijoy Arora (
-              <a href="https://www.instagram.com/bijoyarora/" target="_blank">
+              <a href="https://www.instagram.com/bijoyarora/" target="_blank" rel="noreferrer">
                 @bijoyarora
               </a>
               ), to launch his streetwear fashion brand (
-              <a href="https://www.instagram.com/notarora/" target="_blank">
+              <a href="https://www.instagram.com/notarora/" target="_blank" rel="noreferrer">
                 @notarora
               </a>
               ). Lately, I've been practicing sewing and pattern-making to expand my wardrobe with unique pieces I can
               feel comfortable in and be proud of. I encourage you to follow the highlights of my sewing journey on
               Instagram (
-              <a href="https://www.instagram.com/kelvinkilledit/" target="_blank">
+              <a href="https://www.instagram.com/kelvinkilledit/" target="_blank" rel="noreferrer">
                 @kelvinkilledit
               </a>
               ).
