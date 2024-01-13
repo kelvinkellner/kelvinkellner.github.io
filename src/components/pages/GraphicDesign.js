@@ -83,6 +83,10 @@ class GraphicDesign extends Component {
                 message: 'Visit Website',
                 href: 'https://www.byarora.com/',
               },
+              {
+                message: 'View Instagram Profile',
+                href: 'https://www.instagram.com/notarora/',
+              },
             ]}
           >
             Collaborated with the creative director to design vectorized illustrations for logos, branding, and
