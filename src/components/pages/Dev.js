@@ -9,7 +9,6 @@ import Heading from '../Heading';
 import Project from '../Project';
 import ProjectDeck from '../ProjectDeck';
 
-//import DavesAutoLogo from '../../assets/images/daves-auto-service-logo.png';
 import KelvinKellnerLogo from '../../assets/images/kelvin-kellner-logo.png';
 import LetsGetThisBreadDuck from '../../assets/images/lets-get-this-bread-duck.png';
 import LMSLogo from '../../assets/images/learning-management-system-logo.png';
