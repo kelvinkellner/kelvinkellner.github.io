@@ -82,7 +82,7 @@ class Home extends Component {
         <Row xs={1} md={3} style={{ marginBottom: '4em' }}>
           <Col>
             <Button variant="section-selector">
-              <Link to="/dev" onClick={this.scrollToTop}>
+              <Link to="/software" onClick={this.scrollToTop}>
                 <h3>Software.</h3>
               </Link>
             </Button>

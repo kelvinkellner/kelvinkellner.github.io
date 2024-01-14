@@ -33,7 +33,7 @@ class Header extends Component {
             <Col style={{ padding: 0 }}>
               <ul className="nav nav-header" style={{ marginTop: '0.2em' }}>
                 <li className="nav-item">
-                  <NavLink to="/dev" activeClassName="active" className="hover-space">
+                  <NavLink to="/software" activeClassName="active" className="hover-space">
                     Software.
                   </NavLink>
                 </li>

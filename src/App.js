@@ -15,9 +15,9 @@ function App() {
     <Router basename={process.env.PUBLIC_URL}>
       <Header />
       <Switch>
-        <Route exact path="/" component={Home}/>
+        <Route exact path="/" component={Home} />
         <Route path="/ux" component={UX} />
-        <Route path="/dev" component={Dev} />
+        <Route path="/software" component={Dev} />
         <Route path="/graphic-design" component={GraphicDesign} />
 
         <Route path="*">
