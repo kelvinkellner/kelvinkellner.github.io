@@ -56,7 +56,7 @@ class Dev extends Component {
             role="Front End Software Developer"
             year="2020-2021"
             type="Personal Project"
-            tech="React JS, HTML, CSS"
+            tech="React JS, HTML, CSS, Bootstrap"
             imgSrc={KelvinKellnerLogo}
             imgAlt="Kelvin Kellner website logo"
             actions={[
@@ -66,8 +66,8 @@ class Dev extends Component {
               },
             ]}
           >
-            Designed and implemented a digital portfolio website for hosting academic and personal projects. Website
-            made with React JS, React Bootstrap, and CSS.
+            Created a digital portfolio website for showcasing academic and personal projects using React, Bootstrap,
+            and CSS.
           </Project>
           <Project
             title="MuSpace"
@@ -80,16 +80,12 @@ class Dev extends Component {
             actions={[
               {
                 message: 'View on GitHub',
-                href: 'https://github.com/SherRao/MuSpace',
-              },
-              {
-                message: 'Launch Prototype',
-                href: 'https://muspace-621b5.web.app/',
+                href: 'https://github.com/kelvinkellner/MuSpace',
               },
             ]}
           >
-            Worked as a Front End Web Developer on a team of 14 to develop a social media platform with an emphasis on
-            sharing music and connecting with other listeners.
+            Contributed as a Front End Software Engineer in a big team, building a music-sharing social media platform.
+            Integrated Spotify API to fuel our app's data needs.
           </Project>
           <Project
             title="HealthyHawk"
@@ -102,16 +98,16 @@ class Dev extends Component {
             actions={[
               {
                 message: 'View on GitHub',
-                href: 'https://github.com/Flatfire/CP470Proj',
+                href: 'https://github.com/kelvinkellner/HealthyHawk',
               },
               {
                 message: 'Watch Demo',
-                href: 'https://drive.google.com/file/d/1pmYB6o_ziJT8AAKS-rssy1aqOsPuO2ik/view?usp=sharing',
+                href: 'https://www.youtube.com/watch?v=r3Z0bfseis0',
               },
             ]}
           >
-            Worked on a team of 5 to design and implement a fitness activity tracking and goal-setting mobile app for
-            Android.
+            Worked in a team of five to design and implement a simple fitness activity tracker and goal-setting mobile
+            app for Android.
           </Project>
           <Project
             title="YouX Careers"
@@ -132,8 +128,8 @@ class Dev extends Component {
               },
             ]}
           >
-            Worked on a team of 4 to design and implement a prototype for an online educational tool that matches
-            students to UX careers that fit their skills and interests.
+            Worked in a team of four to design and implement a prototype for an educational platform with the goal of
+            aligning students with UX careers that match their interests.
           </Project>
           <Project
             title="Learning Management System"
@@ -154,16 +150,9 @@ class Dev extends Component {
               },
             ]}
           >
-            Worked with a partner to design and prototype a modular organizational tool similar to bullet journals for
-            students pursuing self-paced learning options.
+            Collaborated with a partner to design and prototype a modular organizational tool, similar to bullet
+            journals, tailored towards students engaged in self-paced learning.
           </Project>
-          {/**<Project title="Dave&apos;s Auto Service" role="Web Designer &amp; Digital Media Manager" year="2015-2020" type="Part-Time Employement" tech="Wix Editor, Adobe Suite" imgSrc={DavesAutoLogo} imgAlt="Dave's Auto Service Logo"
-                actions={[{
-                        message: "Visit Website",
-                        href: "https://www.davesautoservice.ca/"
-                    }]}>
-                    Designed a visually appealing website for customers to quickly discover important information about the business.
-                </Project>**/}
           <Project
             title="Let's Get This Bread"
             role="Game Developer"
@@ -179,8 +168,8 @@ class Dev extends Component {
               },
             ]}
           >
-            Planned and prototyped a simple 2D platformer game where you play as a pixel art duck who is adamantly in
-            search of bread. Implemented in Java using OOP.
+            Designed and prototyped a basic 2D platformer game in Java using Object-Oriented Programming (OOP)
+            principles. Play as a pixel art duck in search of food.
           </Project>
         </ProjectDeck>
       </div>
