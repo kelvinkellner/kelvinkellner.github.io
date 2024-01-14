@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff309d40.chunk.css",
-    "main.js": "/static/js/main.8343bc73.chunk.js",
-    "main.js.map": "/static/js/main.8343bc73.chunk.js.map",
+    "main.css": "/static/css/main.0bd0ae38.chunk.css",
+    "main.js": "/static/js/main.7e48d0d8.chunk.js",
+    "main.js.map": "/static/js/main.7e48d0d8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2bebe183.js",
     "runtime-main.js.map": "/static/js/runtime-main.2bebe183.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.e1c9085d.chunk.js.map": "/static/js/3.e1c9085d.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.ff309d40.chunk.css.map": "/static/css/main.ff309d40.chunk.css.map",
+    "static/css/main.0bd0ae38.chunk.css.map": "/static/css/main.0bd0ae38.chunk.css.map",
     "static/js/2.16723312.chunk.js.LICENSE.txt": "/static/js/2.16723312.chunk.js.LICENSE.txt",
     "static/media/arora-logo.17797180.png": "/static/media/arora-logo.17797180.png",
     "static/media/bg-petals.4b154fc8.png": "/static/media/bg-petals.4b154fc8.png",
     "static/media/daves-auto-service-logo.32606651.png": "/static/media/daves-auto-service-logo.32606651.png",
     "static/media/google-vs-samsung.636baa0f.png": "/static/media/google-vs-samsung.636baa0f.png",
     "static/media/healthyhawk-logo.be24d462.png": "/static/media/healthyhawk-logo.be24d462.png",
-    "static/media/k-godless-logo.4eac6d05.png": "/static/media/k-godless-logo.4eac6d05.png",
+    "static/media/kelvin-graffiti-scratch-logo.386e093f.png": "/static/media/kelvin-graffiti-scratch-logo.386e093f.png",
     "static/media/kelvin-prom.0d5658d3.jpg": "/static/media/kelvin-prom.0d5658d3.jpg",
     "static/media/learning-management-system-logo.b5659be3.png": "/static/media/learning-management-system-logo.b5659be3.png",
     "static/media/muspace-logo.4a742e6f.svg": "/static/media/muspace-logo.4a742e6f.svg",
@@ -30,7 +30,7 @@
     "static/js/runtime-main.2bebe183.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.16723312.chunk.js",
-    "static/css/main.ff309d40.chunk.css",
-    "static/js/main.8343bc73.chunk.js"
+    "static/css/main.0bd0ae38.chunk.css",
+    "static/js/main.7e48d0d8.chunk.js"
   ]
 }
