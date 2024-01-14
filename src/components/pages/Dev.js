@@ -36,17 +36,17 @@ class Dev extends Component {
           </Row>
           <Row>
             <p>
-              Puzzles have always fascinated me. From when I was a kid playing with Rubik&apos;s Cubes, playing
-              challenging board games, or learning to code - I have never been the type of person to shy away from
-              challenges; I am a problem-solver after all. I love working with others to analyse issues, brainstorm
-              ideas, and begin implementing solutions.
+              I am a recent Computer Science graduate with co-op experience as a Full-Stack Software Engineer at TD and
+              as a Data and Automation Developer at Motoinsight. My specialty lies in an Agile approach to engineering
+              accessible web applications and APIs using modern web technologies and development tools, including
+              React.js, Redux, TypeScript, JavaScript, CSS, Java, and Python. I understand the importance of building
+              scalable, testable solutions to avoid technical debt further down the line.
             </p>
             <p>
-              University has given me the opportunity to learn tons of new information about mathematics, computing, and
-              algorithms. I am fascinated with the idea of creating products that can solve problems efficiently and
-              effectively, and I believe that building and testing prototypes is the best way to achieve successful
-              outcomes. I hope to continue exploring the worlds of software, website, and mobile development in the
-              years to come. In the mean time, you can find some of the past projects I have worked on below.
+              Puzzles have always fascinated me; I am a natural problem-solver. I love with others to analyze
+              challenges, brainstorm ideas, compare approaches, and implement solutions. Feel free to explore my
+              LinkedIn profile for a more in-depth look at my work history and story. In the meantime, you can find
+              details about some of the past projects I've contributed to below.
             </p>
           </Row>
         </Container>
