@@ -79,7 +79,7 @@ class Home extends Component {
             What would you like to see<span>?</span>
           </Heading>
         </Row>
-        <Row xs={1} md={3} style={{ marginBottom: '4em' }}>
+        <Row xs={1} md={3} style={{ marginBottom: '3em' }}>
           <Col>
             <Button variant="section-selector">
               <Link to="/software" onClick={this.scrollToTop}>
